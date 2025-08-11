@@ -1,0 +1,49 @@
+[global]
+    follow = mouse
+
+    width = 300
+    height = (0, 500)
+    frame_width = 0
+
+    origin = top-right
+    offset = (4, 4)
+    gap_size = 4
+
+    notification_limit = 6
+    indicate_hidden = yes
+    progress_bar = false
+    sort = update
+
+    font = "Hack Nerd Font" 10
+    markup = full
+    format = "<b>%a</b>\n%s\n%b"
+    vertical_alignment = center
+    show_age_threshold = 0
+    ignore_newline = no
+    stack_duplicates = false
+
+    enable_recursive_icon_lookup = true
+    icon_theme = Adwaita
+    icon_position = left
+    min_icon_size = 32
+    max_icon_size = 32
+
+    history_length = 0
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[urgency_low]
+    background = "#00000080"
+    foreground = "#ffffffff"
+    timeout = 0
+
+[urgency_normal]
+    background = "#00000080"
+    foreground = "#ffffffff"
+    timeout = 0
+
+[urgency_critical]
+    background = "#00000080"
+    foreground = "#ffffffff"
+    timeout = 0

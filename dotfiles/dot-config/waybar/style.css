@@ -1,0 +1,19 @@
+* {
+    font-family: Hack Nerd Font;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+#network,
+#tray,
+#wireplumber,
+#cpu,
+#memory,
+#clock {
+    padding: 0 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}

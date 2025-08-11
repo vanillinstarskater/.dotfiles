@@ -1,0 +1,14 @@
+hide-cursor = false
+history = false
+
+font = /usr/share/fonts/TTF/HackNerdFont-Regular.ttf
+font-size = 15
+
+background-color = 00000080
+outline-width = 0
+border-width = 0
+
+prompt-text = "> "
+selection-color = 00FFFF
+height = 50%
+width = 50%

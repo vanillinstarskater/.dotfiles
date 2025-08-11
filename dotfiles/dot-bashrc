@@ -1,0 +1,8 @@
+set -o vi
+
+alias vi='nvim'
+alias :q='exit'
+
+alias ls='ls --color=auto'
+alias la='ls -A'
+alias cl='clear'
