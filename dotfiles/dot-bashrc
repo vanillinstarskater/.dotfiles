@@ -1,3 +1,5 @@
+export PATH="$HOME/bin:$PATH"
+
 set -o vi
 
 alias vi='nvim'
