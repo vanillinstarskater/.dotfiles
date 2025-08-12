@@ -39,3 +39,6 @@ vim.keymap.set("n", "<Leader>d", ":lua vim.diagnostic.open_float()<LF>")
 vim.keymap.set("n", "<Leader>e", ":Neotree toggle right<LF>")
 vim.keymap.set("n", "<Leader>t", ":terminal<LF>")
 vim.keymap.set("n", "<Leader>c", ":bd<LF>")
+
+-- Set up LSP.
+vim.lsp.enable('pyright')
