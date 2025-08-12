@@ -31,6 +31,7 @@ vim.pack.add({
     "https://github.com/nvim-lua/plenary.nvim",
     "https://github.com/MunifTanjim/nui.nvim",
     "https://github.com/neovim/nvim-lspconfig",
+    "https://github.com/stevearc/conform.nvim",
 })
 
 -- Sets up some shortcuts.
@@ -40,5 +41,15 @@ vim.keymap.set("n", "<Leader>e", ":Neotree toggle right<LF>")
 vim.keymap.set("n", "<Leader>t", ":terminal<LF>")
 vim.keymap.set("n", "<Leader>c", ":bd<LF>")
 
--- Set up LSP.
+-- Sets up LSP.
 vim.lsp.enable('pyright')
+vim.lsp.enable('black')
+
+-- Sets up formatting.
+
+require("conform").setup({
+    format_on_save = {},
+    formatters_by_ft = {
+        python = { "black" },
+    },
+})
