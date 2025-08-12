@@ -1,6 +1,6 @@
 #! /bin/sh
 
-paru -S neovim-git gtk4 hyprland kitty stow pipewire wireplumber pipewire-jack pipewire-alsa pipewire-pulse ttf-hack-nerd archlinux-wallpaper swaybg dunst libnotify qt5-wayland qt6-wayland xdg-desktop-portal-hyprland xdg-desktop-portal-gtk hyprpolkitagent waybar wayclip tofi cpio pyright python-black
+paru -S neovim-git gtk4 hyprland kitty stow pipewire wireplumber pipewire-jack pipewire-alsa pipewire-pulse ttf-hack-nerd archlinux-wallpaper swaybg dunst libnotify qt5-wayland qt6-wayland xdg-desktop-portal-hyprland xdg-desktop-portal-gtk hyprpolkitagent waybar wayclip tofi cpio pyright python-black krita
 
 mkdir -p ~/.config
 stow --dotfiles --restow dotfiles
