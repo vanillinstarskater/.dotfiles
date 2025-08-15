@@ -34,6 +34,15 @@ vim.pack.add({
     "https://github.com/stevearc/conform.nvim",
 })
 
+-- Makes neo-tree show hidden files by default.
+require("neo-tree").setup({
+    filesystem = {
+        filtered_items = {
+            visible = true
+        }
+    }
+})
+
 -- Sets up some shortcuts.
 vim.keymap.set("n", "<Esc>", ":noh<LF><Esc>")
 vim.keymap.set("n", "<Leader>d", ":lua vim.diagnostic.open_float()<LF>")
