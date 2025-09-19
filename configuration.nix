@@ -31,6 +31,7 @@
       "networkmanager"
       "wheel"
       "plugdev"
+      "openrazer"
     ];
   };
 
@@ -72,6 +73,7 @@
 
   # Sets up programs.
   nixpkgs.config.allowUnfree = true;
+  hardware.openrazer.enable = true;
   programs = {
     neovim.enable = true;
     waybar.enable = true;
@@ -79,6 +81,7 @@
     git.enable = true;
   };
   environment.systemPackages = with pkgs; [
+    openrazer-daemon
     nixfmt-rfc-style
     polychromatic
     home-manager
