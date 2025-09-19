@@ -80,6 +80,7 @@
   environment.systemPackages = with pkgs; [
     nixfmt-rfc-style
     home-manager
+    prismlauncher
     alacritty
     fastfetch
     librewolf
