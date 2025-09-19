@@ -79,6 +79,7 @@
   };
   environment.systemPackages = with pkgs; [
     nixfmt-rfc-style
+    polychromatic
     home-manager
     prismlauncher
     alacritty
