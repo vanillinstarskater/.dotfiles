@@ -90,6 +90,7 @@
     fastfetch
     librewolf
     keepassxc
+    python3
     wayclip
     swaybg
     tofi
