@@ -27,6 +27,7 @@
       alias ls='ls --color=auto'
       alias la='ls -A'
       alias cl='clear'
+      alias diary='python ~/.local/diaryscript/diary.py'
     '';
   };
 
